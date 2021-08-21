@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mridang 2021 | Kids Zone</title>
+
+  <meta charset="UTF-8" />
+  <meta name="description" content="Official Website for Mridang 2021" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Open+Sans&display=swap"
+    rel="stylesheet" />
+
+  <link rel="shortcut icon" href="assets/logo_img.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img class="logo-img" src="./assets/logo_img.png" alt="Mridang 2021 Logo" />
+      <h1>Mridang 2021</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#gallery">Image Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#competitions">Competitions</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Image Slideshow -->
+    <div id="gallery" class="image-gallery">
+      <div class="gallery-images">
+        <img class="gallery-img" id="slider1" src="./assets/slideshow/01.jpg" alt="Annual Day image" />
+        <img class="gallery-img hidden" id="slider2" src="./assets/slideshow/02.jpg" alt="Annual Day image" />
+        <img class="gallery-img hidden" id="slider3" src="./assets/slideshow/03.jpg" alt="Annual Day image" />
+        <img class="gallery-img hidden" id="slider4" src="./assets/slideshow/04.jpg" alt="Annual Day image" />
+        <div class="gallery-controls">
+          <div class="dot selected" data-image-index="0"></div>
+          <div class="dot" data-image-index="1"></div>
+          <div class="dot" data-image-index="2"></div>
+          <div class="dot" data-image-index="3"></div>
+        </div>
+      </div>
+
+      <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="spacer"></div>
+    </div>
+
+    <!-- List of Events -->
+    <div id="events">
+      <div class="title-sec">
+        <img src="./assets/events.png" alt="Events Icon" />
+        <h2>Events</h2>
+      </div>
+      <div class="event-list">
+        <div class="event">
+          <img src="./assets/dance2.png" alt="Group Dance Icon" />
+          <div class="eventname">Group Dance Class 10</div>
+          <div class="category">Cultural</div>
+        </div>
+        <div class="event">
+          <img src="./assets/dance2.png" alt="Group Dance Icon" />
+          <div class="eventname">Group Dance Class 6</div>
+          <div class="category">Cultural</div>
+        </div>
+        <div class="event">
+          <img src="./assets/dance1.png" alt="Solo Dance Icon" />
+          <div class="eventname">Solo Dance Class 5</div>
+          <div class="category">Cultural</div>
+        </div>
+        <div class="event">
+          <img src="./assets/sports.png" alt="Sports Icon" />
+          <div class="eventname">100m race Under 16</div>
+          <div class="category">Sports</div>
+        </div>
+        <div class="event">
+          <img src="./assets/sports.png" alt="Sports Icon" />
+          <div class="eventname">100m race Under 19</div>
+          <div class="category">Sports</div>
+        </div>
+        <div class="event">
+          <img src="./assets/cultural_events.png" alt="Play Icon" />
+          <div class="eventname">Play - Merchant of Venice</div>
+          <div class="category">Cultural</div>
+        </div>
+      </div>
+      <div class="right">And many more...</div>
+    </div>
+
+    <!-- List of Competitions -->
+    <div id="competitions">
+      <div class="title-sec">
+        <img src="./assets/competition.png" alt="Competition Icon" />
+        <h2>Competitions</h2>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Competition</th>
+            <th>Date and Time</th>
+            <th>Venue</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dance competition under 16</td>
+            <td>29th August, 2021 10:00 A.M.</td>
+            <td>Auditorium 1</td>
+          </tr>
+          <tr>
+            <td>Dance competition under 19</td>
+            <td>29th August, 2021 10:00 A.M.</td>
+            <td>Auditorium 2</td>
+          </tr>
+          <tr>
+            <td>Poem Recitation under 16</td>
+            <td>30th August, 2021 10:00 A.M.</td>
+            <td>Auditorium 1</td>
+          </tr>
+          <tr>
+            <td>Poem Recitation under 16</td>
+            <td>30th August, 2021 10:00 A.M.</td>
+            <td>Auditorium 1</td>
+          </tr>
+          <tr>
+            <td>Poem Recitation under 19</td>
+            <td>30th August, 2021 10:00 A.M.</td>
+            <td>Auditorium 2</td>
+          </tr>
+          <tr>
+            <td>Hand writing under 16</td>
+            <td>30th August, 2021 10:00 A.M.</td>
+            <td>Classroom 10 B</td>
+          </tr>
+          <tr>
+            <td>Hand writing under 19</td>
+            <td>30th August, 2021 10:00 A.M.</td>
+            <td>Classroom 9 B</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Important Contacts -->
+    <div id="contacts">
+      <div class="title-sec">
+        <img src="./assets/mic.jpg" alt="Mic Icon" />
+        <h2>Important Contacts</h2>
+      </div>
+      <div class="contact-list">
+        <div class="contact">
+          <div class="name">Bina Rani</div>
+          <div class="designation">Discipline Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:binarani@mridang2021.com">binarani@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">Amit Sharma</div>
+          <div class="designation">Cultural Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:amitsharma@mridang2021.com">amitsharma@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">A Ramchandra</div>
+          <div class="designation">Discipline Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:aramchandra@mridang2021.com">aramchandra@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">Kiran Kumar</div>
+          <div class="designation">Management Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:kirankumar@mridang2021.com">kirankumar@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">Rajeev Dutt</div>
+          <div class="designation">Management Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:rajeevdutt@mridang2021.com">rajeevdutt@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">Priya Rao</div>
+          <div class="designation">Cultural Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:priyarao@mridang2021.com">priyarao@mridang2021.com</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="name">Arvind Gupta</div>
+          <div class="designation">Discipline Team</div>
+          <div class="mobileno">9811098110</div>
+          <div class="email">
+            <a href="mailto:priyarao@mridang2021.com">priyarao@mridang2021.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Countdown Timer -->
+    <div id="countdown">
+      <div class="title-sec">
+        <img src="./assets/calendar.png" alt="Calendar Icon" />
+        <h2>Countdown</h2>
+      </div>
+
+      <div class="countdown-text">The event starts in:</div>
+      <div class="countdown-timer headfont">00:00:00</div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="leftside">
+      <div class="logo">
+        <img src="./assets/logo_img.png" class="logo-img" alt="Mridant 2021 Logo" />
+      </div>
+      <div class="copyright-text">
+        &copy; Kids Zone Ltd. All rights reserved.
+      </div>
+    </div>
+    <div class="rightside">
+      <h2>Follow Us</h2>
+      <div class="socials">
+        <div class="social-icon">
+          <a href="https://www.facebook.com/NSDCIndiaOfficial/">
+            <img src="./assets/socials/facebook.png" alt="Facebook Logo" />
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.linkedin.com/company/national-skill-development-corporation/">
+            <img src="./assets/socials/linkedin1.png" alt="LinkedIn Logo" />
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://twitter.com/NSDCINDIA">
+            <img src="./assets/socials/twitter.png" alt="Twitter Logo" />
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.youtube.com/user/nsdcindiaofficial">
+            <img src="./assets/socials/youtube.png" alt="YouTube Logo" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="empty"></div>
+  </footer>
+</body>
+
+</html>
